@@ -119,7 +119,7 @@ Nhập các tham số cần thiết khi được yêu cầu:
    Đường dẫn file mã hóa.
    Đường dẫn file đầu ra sau khi giải mã.
 
-**C++
+**C++**
 Compile mã hóa:
 
 ```bash
