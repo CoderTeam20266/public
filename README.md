@@ -44,8 +44,8 @@
 4. **Kiểm tra cài đặt**:
 ```cmd
    openssl version
-   Kết quả sẽ hiển thị phiên bản OpenSSL đã cài đặt.
 ```
+   Kết quả sẽ hiển thị phiên bản OpenSSL đã cài đặt.
 ## **2. Tạo cặp khóa RSA**
 1. **Tạo khóa riêng (private key)**:
 ```bash
