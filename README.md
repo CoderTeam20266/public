@@ -16,11 +16,11 @@
 ```bash
    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -passout pass:<mật khẩu>
 ```
-   Tạo khóa không mật khẩu:
+      Tạo khóa không mật khẩu:
 ```bash
    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
 ```
-   Thêm mật khẩu cho khóa riêng:
+      Thêm mật khẩu cho khóa riêng:
 ```bash
    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -aes256
 ```
