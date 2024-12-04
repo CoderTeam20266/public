@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng mã hóa và giải mã file lớn
+# Hướng dẫn sử dụng mã hóa và giải mã file lớn với rsa, cặp khóa 
 
 ## **1. Cài đặt OpenSSL**
 
