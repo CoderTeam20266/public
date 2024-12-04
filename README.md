@@ -100,8 +100,8 @@ Windows:
    g++ --version
 ```
 ## **5. Compile và chạy chương trình**
-**Python
-Mã hóa file:
+**Python**
+1. **Mã hóa file**:
 ```bash
    python encrypt.py
 ```
@@ -109,7 +109,7 @@ Nhập các tham số cần thiết khi được yêu cầu:
    Đường dẫn tới file khóa công khai.
    Đường dẫn file cần mã hóa.
    Đường dẫn file mã hóa đầu ra.
-   Giải mã file:
+2. **Giải mã file**:
 ```
 ```bash
    python decrypt.py
@@ -120,20 +120,19 @@ Nhập các tham số cần thiết khi được yêu cầu:
    Đường dẫn file đầu ra sau khi giải mã.
 
 **C++**
-Compile mã hóa:
-
+1. **Compile mã hóa**:
 ```bash
    g++ -o encrypt encrypt.cpp -lssl -lcrypto
 ```
-Chạy chương trình:
+2. **Chạy chương trình**:
 ```bash
    ./encrypt <khoa_cong_khai.pem> <file_can_ma_hoa> <file_ket_qua>
 ```
-Compile giải mã:
+3. **Compile giải mã**:
 ```bash
    g++ -o decrypt decrypt.cpp -lssl -lcrypto
 ```
-Chạy chương trình:
+4. **Chạy chương trình**:
 ```bash
    ./decrypt <khoa_rieng.pem> <file_ma_hoa> <file_ket_qua>
 ```
