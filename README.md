@@ -119,7 +119,6 @@ Nhập các tham số cần thiết khi được yêu cầu:
    Đường dẫn file cần mã hóa.
    Đường dẫn file mã hóa đầu ra.
 2. **Giải mã file**:
-```
 ```bash
    python decrypt.py
 ```
