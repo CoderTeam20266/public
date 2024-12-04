@@ -4,13 +4,21 @@
 
 ### **Ubuntu**
 1. **Cài đặt OpenSSL**:
-   ```bash
+```bash
    sudo apt update
    sudo apt install openssl libssl-dev
 ```
 2. **Kiểm tra phiên bản OpenSSL**:
-    ```bash
+```bash
 openssl version
+```
+3. **Tạo cặp khóa**:
+```bash
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -passout pass:<mật khẩu>
+```
+Kiểm tra file mã hóa: Sử dụng checksum (SHA256) để đảm bảo tính toàn vẹn của file:
+```bash
+sha256sum <file>
 ```
 ### **Windows** ###
 1. **Tải xuống OpenSSL**:
@@ -145,13 +153,8 @@ Chạy chương trình:
 ```
 ## **6. Tạo cặp khóa và Lưu ý bảo mật và **
 *Bảo vệ khóa riêng: File private_key.pem không nên chia sẻ hoặc lưu trên máy không an toàn.
-*Mật khẩu file: Nếu thêm mật khẩu vào khóa riêng, hãy nhớ sử dụng tham số -passout pass:<mật khẩu> khi tạo khóa:
-```bash
-openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -passout pass:<mật khẩu>
-```
-*Kiểm tra file mã hóa: Sử dụng checksum (SHA256) để đảm bảo tính toàn vẹn của file:
-```bash
-sha256sum <file>
-```
+*Mật khẩu file: Nếu thêm mật khẩu vào khóa riêng, hãy nhớ sử dụng tham số -passout pass:<mật khẩu> khi tạo khóa
+*Giải mã và cho luôn vao data-set
+
 
 
