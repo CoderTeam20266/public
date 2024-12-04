@@ -16,7 +16,7 @@ openssl version
 ```bash
 openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -passout pass:<mật khẩu>
 ```
-Kiểm tra file mã hóa: Sử dụng checksum (SHA256) để đảm bảo tính toàn vẹn của file:
+4. **Kiểm tra file mã hóa: Sử dụng checksum (SHA256) để đảm bảo tính toàn vẹn của file**:
 ```bash
 sha256sum <file>
 ```
