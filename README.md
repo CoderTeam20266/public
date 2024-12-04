@@ -31,7 +31,7 @@
 ```
 ### **Windows** ###
 1. **Tải xuống OpenSSL**:
-   Truy cập [https://openssl-library.org/source/].
+   Truy cập [https://openssl-library.org/source/]. Hoặc bản đã dịch: https://slproweb.com/products/Win32OpenSSL.html
    Tải phiên bản phù hợp (Win64 hoặc Win32).
 2. **Cài đặt OpenSSL**:
    Chạy file cài đặt .exe.
