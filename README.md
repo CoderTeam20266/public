@@ -12,7 +12,7 @@
 ```bash
    openssl version
 ```
-3. **Tạo cặp khóa**:
+3. **Tạo cặp khóa, mật khẩu mã hóa khóa**:
 ```bash
    openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -passout pass:<mật khẩu>
 ```
