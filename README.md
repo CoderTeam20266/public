@@ -20,7 +20,8 @@
 ```bash
       openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
 ```
-      Thêm mật khẩu cho khóa riêng (OpenSSL sẽ yêu cầu bạn nhập một mật khẩu để bảo vệ khóa riêng. Bạn sẽ phải nhập mật khẩu 2 lần (một lần để xác nhận)):
+      Thêm mật khẩu cho khóa riêng 
+      OpenSSL sẽ yêu cầu bạn nhập một mật khẩu để bảo vệ khóa riêng. Bạn sẽ phải nhập mật khẩu 2 lần (một lần để xác nhận)):
 ```bash
       openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048 -aes256
 ```
