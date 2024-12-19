@@ -1,3 +1,9 @@
+//sudo apt update
+//sudo apt install build-essential
+//sudo apt install libopencv-dev
+//gcc stego.c -o steganography `pkg-config --cflags --libs opencv4`
+
+
 #include <iostream>
 #include <fstream>
 #include <vector>
