@@ -30,7 +30,7 @@ Mục tiêu chính:
 
 ---
 
-# ![AI](https://img.icons8.com/fluency/22/artificial-intelligence.png) 1. Ghi chú AI hiện đại
+# ![AI](https://img.icons8.com/fluency/22/artificial-intelligence.png) 1. AI hiện đại
 
 ## Các nhóm AI chính
 
