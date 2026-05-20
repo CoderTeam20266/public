@@ -197,9 +197,9 @@ Robot và hệ thống tự động cần:
 
 ---
 
-# ![Security](https://img.icons8.com/fluency/22/lock.png) 3. Ghi chú Bảo mật & Mật mã học
+# ![Security](https://img.icons8.com/fluency/22/lock.png) 3.  Mật hóa
 
-Các thuật toán bảo mật giúp:
+Các thuật toán bảo mật:
 - mã hóa dữ liệu
 - xác thực
 - ký số
@@ -243,13 +243,13 @@ Các thuật toán bảo mật giúp:
 |---|---|
 | Zero-Knowledge Proof | Xác thực không lộ dữ liệu |
 | Homomorphic Encryption | Tính toán trên dữ liệu mã hóa |
-| MPC | Tính toán đa bên an toàn |
+| MPC | Tính toán đa bên bảo mật |
 | Differential Privacy | Bảo vệ dữ liệu người dùng |
 | Confidential Computing | Tính toán an toàn trong TEE |
 
 ---
 
-## Mật mã hậu lượng tử
+## Mật mã lượng tử
 
 - Kyber
 - Dilithium
@@ -286,24 +286,3 @@ Các thuật toán bảo mật giúp:
 - HashiCorp Vault
 
 ---
-
-# ![Folder](https://img.icons8.com/fluency/22/folder-invoices.png) 5. Cấu trúc Repository
-
-```text
-notes/
-├── ai/
-├── llm/
-├── slm/
-├── vlm/
-├── ocr/
-├── voice/
-├── agents/
-├── robotics/
-├── planning/
-├── optimization/
-├── reinforcement-learning/
-├── cryptography/
-├── security/
-├── papers/
-├── tutorials/
-└── diagrams/
